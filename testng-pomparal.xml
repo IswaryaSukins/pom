@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+	<parameter name="name" value="Salesforce Automation by Iswarya"></parameter>
+<parameter name="amnt" value="75000"></parameter>
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="Testcases.TCLogin002"/>
+      <class name="Testcases.TCLogin001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
